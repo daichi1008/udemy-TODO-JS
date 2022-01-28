@@ -10,13 +10,13 @@
 <body>
     <!-- 入力エリア -->
     <div class="input-area">
-        <input placeholder="TODOを入力" />
-        <button>追加</button>
+        <input id="add-text" placeholder="TODOを入力" />
+        <button id="add-button">追加</button>
     </div>
     <!-- 未完了エリア -->
     <div class="incomplete-area">
         <p class="title">未完了のTODO</p>
-        <ul>
+        <ul id = "incomplete-list">
             <div class="list-row">
                 <li>TODOです</li>
                 <button>完了</button>
@@ -39,7 +39,7 @@
             </div>
         </ul>
     </div>
-    <script src="src/index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
